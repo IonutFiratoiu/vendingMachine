@@ -42,7 +42,6 @@ class App extends Component {
   }
 
   render() {
-  console.log(this.state, this.props);
     return (
       <div className="App">
         <div className="machine">
