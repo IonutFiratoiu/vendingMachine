@@ -1,0 +1,208 @@
+.App {
+  padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.machine {
+  height: 850px;
+  width: 800px;
+  border: 10px solid #000;
+  border-radius: 2%;
+}
+
+.part {
+  width: 100%;
+  height: 750px;
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.products {
+  display: flex;
+}
+
+.upper {
+  background: #eeeeee;
+}
+
+.glass {
+  width: 75%;
+}
+
+.numbers {
+  border-left: 1px solid #000;
+  width: 25%;
+  position: relative;
+}
+
+.bottom-part {
+  height: calc(100% - 750px);
+  background: #a0a0a0;
+  border-top: 2px solid #000;
+}
+
+.line {
+  height: 160px;
+  display: block;
+  border-bottom: 1px solid #000;
+  margin-top: 10px;
+}
+
+.item-place {
+  display: inline-block;
+  position: relative;
+  width: 195px;
+  height: inherit;
+  border-left: 1px dotted #000;
+  border-right: 1px dotted #000;
+}
+
+.item {
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.black {
+  color: black;
+}
+
+.orange {
+  color: orange;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.price {
+  position: absolute;
+  top: -25%;
+  left: -25%;
+}
+
+.quantity {
+  position: absolute;
+  top: 0;
+  right: 5%;
+}
+
+.number {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  bottom: 5%;
+  left: 45%;
+}
+
+
+
+/* right board */
+
+/*BOARD*/
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  top: 13%;
+  right: 2%;
+  width: 180px;
+  height: 330px;
+  background-color: #000;
+}
+
+.displayNumber {
+  background-color: orange;
+  height: 20%;
+  width: 100%;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+}
+
+.buttons {
+  height: 80%;
+  width: 100%;
+}
+
+.button {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/*MONEY*/
+
+.money {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto 20px auto;
+  height: 240px;
+  width: 180px;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+
+.moneyButton {
+  width: 180px;
+  height: 50px;
+  margin: 5px;
+}
+
+.displayAmount {
+  height: 60px;
+  width: 180px;
+  background-color: #000;
+  margin: auto;
+  color: yellow;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*MESSAGES*/
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  height: 60px;
+  width: 180px;
+  background-color: #000;
+  color: yellow;
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
